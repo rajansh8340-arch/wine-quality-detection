@@ -1,0 +1,40 @@
+{
+  "accuracy": 0.934375,
+  "precision": 0.8235294117647058,
+  "recall": 0.6511627906976745,
+  "f1_score": 0.7272727272727273,
+  "roc_auc": 0.9320376122911594,
+  "confusion_matrix": [
+    [
+      271,
+      6
+    ],
+    [
+      15,
+      28
+    ]
+  ],
+  "training_samples": 1279,
+  "testing_samples": 320,
+  "feature_importance": {
+    "fixed acidity": 0.0595,
+    "volatile acidity": 0.1008,
+    "citric acid": 0.0885,
+    "residual sugar": 0.0491,
+    "chlorides": 0.0672,
+    "free sulfur dioxide": 0.0428,
+    "total sulfur dioxide": 0.0778,
+    "density": 0.074,
+    "pH": 0.0524,
+    "sulphates": 0.1242,
+    "alcohol": 0.2639
+  },
+  "cross_validation": {
+    "cv_accuracy_mean": 0.9093221003134795,
+    "cv_accuracy_std": 0.007864473753903102,
+    "cv_precision_mean": 0.7139975076051926,
+    "cv_recall_mean": 0.553171247357294,
+    "cv_f1_mean": 0.6229258981890562,
+    "cv_roc_auc_mean": 0.9170293671254603
+  }
+}
